@@ -28,7 +28,7 @@ WHERE weight_kg BETWEEN 10.4 AND 17.3;
 BEGIN;
 
 UPDATE animals
-SET species = 'unspecified';
+SELECT species from animals; -- verify that change was made
 
 ROLLBACK;
 
@@ -96,8 +96,7 @@ SELECT AVG(weight_kg) AS average_weight
 FROM animals;
 
 -- Who escapes the most, neutered or not neutered animals?
-SELECT neutered, SUM(escape_attempts) AS total_escape_attempts
-FROM animals
+SELECT neutered, MAX(escape_attempts) FROM animals
 GROUP BY neutered
 ORDER BY total_escape_attempts DESC
 LIMIT 1;
