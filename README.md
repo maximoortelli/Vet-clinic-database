@@ -121,9 +121,9 @@ After running the queries, you can take screenshots of the results to showcase y
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **User Authentication**
-- [ ] **Appointment Scheduling**
-- [ ] **Medical Profile of the Pet**
+- [x] **User Authentication**
+- [x] **Appointment Scheduling**
+- [x] **Medical Profile of the Pet**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
