@@ -6,6 +6,7 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 DB_Vet_Clinic ](#-db_vet_clinic-)
+- - [ Screenshot ](#screenshot)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -26,6 +27,10 @@
 # 📖 Vet-clinic-database <a name="about-project"></a>
 
 Vet-clinic-database: In this project, the objective is to develop a comprehensive database for a veterinary clinic aimed at effectively managing crucial information about animals. The tasks encompass designing and implementing tables using SQL, seamlessly incorporating data entries, and executing diverse queries for information retrieval.
+
+# Screenshot <a name="screenshot"></a>
+
+<img src="diagrama sql.png">
 
 ## 🛠 Built With <a name="built-with"></a>
 
